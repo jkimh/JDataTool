@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTool", "DataTool\DataTool.csproj", "{DB529147-8D7D-48BF-BCA4-CE3EBA081DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB529147-8D7D-48BF-BCA4-CE3EBA081DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB529147-8D7D-48BF-BCA4-CE3EBA081DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB529147-8D7D-48BF-BCA4-CE3EBA081DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB529147-8D7D-48BF-BCA4-CE3EBA081DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35854A17-E6A3-4F26-A2F3-74419BC3611E}
+	EndGlobalSection
+EndGlobal

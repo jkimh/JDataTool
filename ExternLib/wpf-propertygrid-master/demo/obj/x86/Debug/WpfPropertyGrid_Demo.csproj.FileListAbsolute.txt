@@ -1,0 +1,15 @@
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\bin\Debug\WpfPropertyGrid_Demo.exe
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\bin\Debug\WpfPropertyGrid_Demo.pdb
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.csprojAssemblyReference.cache
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\App.g.cs
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo_MarkupCompile.cache
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo_MarkupCompile.lref
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\MainWindow.baml
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.g.resources
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.Properties.Resources.resources
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.csproj.GenerateResource.cache
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.csproj.CoreCompileInputs.cache
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.exe
+C:\Users\jkimh\source\repos\DataTool\ExternLib\wpf-propertygrid-master\demo\obj\x86\Debug\WpfPropertyGrid_Demo.pdb

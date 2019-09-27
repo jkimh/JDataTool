@@ -1,0 +1,68 @@
+﻿<Window  x:Class="DataTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTool"
+        xmlns:wpq="clr-namespace:System.Windows.Controls"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="DataTool" Height="800" Width="1000">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="MenuItem_New" CanExecute="CommandBinding_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Open" Executed="MenuItem_Open" CanExecute="CommandBinding_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Save" Executed="MenuItem_Save" CanExecute="CommandBinding_CanExecute_Save"/>
+        <CommandBinding Command="ApplicationCommands.SaveAs" Executed="MenuItem_SaveAs" CanExecute="CommandBinding_CanExecute_SaveAs"/>
+        <CommandBinding Command="ApplicationCommands.Undo" Executed="MenuItem_Undo" CanExecute="CommandBinding_CanExecute_Undo"/>
+        <CommandBinding Command="ApplicationCommands.Redo" Executed="MenuItem_Redo" CanExecute="CommandBinding_CanExecute_Redo"/>
+        <CommandBinding Command="ApplicationCommands.Delete" Executed="MenuItem_Del" CanExecute="CommandBinding_CanExecute_Del"/>
+    </Window.CommandBindings>
+    <Grid Margin="0,0,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="watermark.png"  />
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0" Height="25" Grid.ColumnSpan="2">
+            <MenuItem Header="File" Height="25">
+                <MenuItem Command="ApplicationCommands.New"/>
+                <MenuItem Command="ApplicationCommands.Open"/>
+                <MenuItem Command="ApplicationCommands.Save"/>
+                <MenuItem Command="ApplicationCommands.SaveAs"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Command="ApplicationCommands.Redo"/>
+                <MenuItem Command="ApplicationCommands.Undo"/>
+                <MenuItem Command="ApplicationCommands.Delete"/>
+            </MenuItem>
+        </Menu>
+        <Label Grid.Column="1" Grid.Row="1" Style="{StaticResource headerTextStyle}" >
+            View Property
+        </Label>
+
+        <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource listHeaderStyle}">
+            <Label Style="{StaticResource listHeaderTextStyle}">ClassName</Label>
+        </Border>
+        <ListBox Name="classNameList" Grid.Column="0" Grid.Row="2" SelectionChanged="ClassNameList_SelectionChanged">
+        </ListBox>
+        <wpq:WpfPropertyGrid x:Name="propertyGrid1" Margin="0,0,0,0" Grid.Column="1" Grid.Row="2"/>
+
+        <!-- View report button -->
+        <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button VerticalAlignment="Center" Click="Button_Del" Style="{StaticResource buttonStyle}">Del</Button>
+            <Button Grid.Column="0" Grid.Row="3" Click="Button_Add" Style="{StaticResource buttonStyle}">Add</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
